@@ -32,7 +32,7 @@ locals {
 locals {
   all_protocols                   = "all"
   anywhere                        = "0.0.0.0/0"
-  create_openshift_instance_pools = true
+  create_openshift_instance_pools = false
   pool_formatter_id               = join("", ["$", "{launchCount}"])
 }
 
