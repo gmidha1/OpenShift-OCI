@@ -1,0 +1,6 @@
+apiVersion: v1alpha1
+metadata:
+ name: newcluster
+ namespace: newcluster
+rendezvousIP: 10.0.16.16
+
